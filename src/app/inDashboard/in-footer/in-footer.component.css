@@ -1,0 +1,25 @@
+footer {
+  color: white;
+  background: #02003b;
+}
+footer .footer{
+    padding: 15em 5em;
+    
+}
+footer .footer p a {
+  color: white;
+}
+footer .footer ul{
+  list-style-type: none;
+}
+footer .footer ul div li a{
+  color: white;
+  text-decoration: none;
+
+}
+footer .footer select {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+footer .footer select:hover {
+  color: white;
+}

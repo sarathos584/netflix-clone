@@ -1,0 +1,110 @@
+#inDashboard {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.8) 0%,
+      rgba(0, 0, 0, 0.5) 50%,
+      rgba(0, 0, 0, 0) 100%
+    ),
+    url(../../../assets/background1.jpg);
+
+
+}
+#inDashboard main .user-welcome {
+  margin-top: 5em;
+  margin-left: 3.3em;
+}
+#inDashboard main .user-welcome form {
+  max-width: 520px;
+}
+#inDashboard main section div {
+  color: white;
+}
+#inDashboard main section div h1 {
+  font-size: 4em;
+  font-weight: 700;
+}
+#inDashboard main section div #para1 {
+  font-size: 1.7em;
+  font-weight: 650;
+}
+#inDashboard main section div #para2,#inDashboard .final p {
+  font-size: 1.2em;
+  font-weight: 500;
+}
+#inDashboard main section form input,#inDashboard .final form input {
+  color: white;
+  font-size: 1em;
+  font-weight: 400;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+#inDashboard main section form input::placeholder,#inDashboard .final form input::placeholder {
+  color: white;
+  font-size: 1em;
+  font-weight: 400;
+}
+#inDashboard main section form button,#inDashboard .final form button {
+  background-color: var(--red);
+  color: white;
+  font-size: 1em;
+  font-weight: 600;
+  white-space: nowrap;
+}
+#inDashboard .details {
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to bottom, #022740, #002041, #001940, #00103f, #02003b);
+  position: relative;
+  top: 9em;
+}
+#inDashboard .details .cards{
+  gap: 1em;
+}
+#inDashboard .details .cards .card {
+  width: 19rem;
+  gap: 1em;
+  background-color: #4158D0;
+  background-image: linear-gradient(319deg, #4158D0 0%, #1a1086 50%, #e05e60 100%);
+  color: white;
+  outline: none;
+  border: none;
+  border-radius: 1em;
+  
+}
+#inDashboard .details .cards .card h2{
+  font-size: 2em;
+  font-weight: 700;
+}
+#inDashboard .details .cards .card p{
+  font-size: 1em;
+  font-weight: 600;
+ 
+}
+#inDashboard .details .cards .card img {
+  width: 100px;
+  height: 100px;
+}
+#inDashboard .details .faq {
+  color: white;
+
+}
+#inDashboard .details .faq .faq-btn {
+  background: #003061d8;
+  width: 100vh;
+  color: white;
+  white-space: nowrap;
+  
+}
+#inDashboard .details .faq .buttons p .btn{
+  height: 4em;
+  outline: none;
+  border-radius: 0%;
+}
+#inDashboard .final{
+  color: white;
+}
+#inDashboard .final form{
+  width: 100vh;
+}
+#inDashboard .final p{
+  width: 100vh;
+}
