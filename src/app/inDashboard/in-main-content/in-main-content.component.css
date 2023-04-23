@@ -49,6 +49,10 @@
   font-weight: 600;
   white-space: nowrap;
 }
+#inDashboard main section form button a,#inDashboard .final form button a{
+  text-decoration: none;
+  color: white;
+}
 #inDashboard .details {
   width: 100%;
   height: 100%;

@@ -6,19 +6,18 @@ import { AppComponent } from './app.component';
 import { InFooterComponent } from './inDashboard/in-footer/in-footer.component';
 import { InHeaderComponent } from './inDashboard/in-header/in-header.component';
 import { InMainContentComponent } from './inDashboard/in-main-content/in-main-content.component';
+import { SignInComponent } from './routedComponents/sign-in/sign-in.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     InFooterComponent,
     InHeaderComponent,
-    InMainContentComponent
+    InMainContentComponent,
+    SignInComponent,
   ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule
-  ],
+  imports: [BrowserModule, AppRoutingModule],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
